@@ -14,7 +14,7 @@ describe('(Codewars) dubstep song decoder', () => {
   });
 
   it('test #3: no extra space at the first line or last line', () => {
-    const test3 = songDecoder("WUBAWUBBWUBCWUB");
+    const test3 = songDecoder('WUBAWUBBWUBCWUB');
     const result = 'A B C';
     expect(test3).toBe(result);
   });
