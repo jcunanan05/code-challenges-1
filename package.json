@@ -1,0 +1,26 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "description": "My take on code challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jffrsnpbbr/code-challenges.git"
+  },
+  "keywords": [
+    "code",
+    "exercises"
+  ],
+  "author": "Jefferson Pababero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jffrsnpbbr/code-challenges/issues"
+  },
+  "homepage": "https://github.com/jffrsnpbbr/code-challenges#readme",
+  "dependencies": {
+    "jest": "^26.5.3"
+  }
+}
