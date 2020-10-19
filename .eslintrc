@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard"
+  ],
+  "plugins": [
+    "babel",
+    "import",
+    "node",
+    "promise"
+  ],
+  "env": {
+    "browser" : true
+  },
+  "globals": {
+    "__DEV__"      : false,
+    "__TEST__"     : false,
+    "__PROD__"     : false,
+    "__COVERAGE__" : false
+  },
+  "rules": {
+    "key-spacing"                : 0,
+    "semi"                       : ["error", "always", { "omitLastInOneLineBlock": true}],
+    "quotes"                     : ["error", "single", { "avoidEscape": true }],
+    "space-before-function-paren": 0,
+    "no-unused-vars"             : 0,
+    "no-undef"                   : 0,
+    "jsx-quotes"                 : 0,
+    "max-len"                    : [2, 250, 2],
+    "object-curly-spacing"       : [2, "always"],
+    "no-console"                 : 1,
+    "no-useless-rename": [
+      "error",
+      {
+        "ignoreDestructuring": true
+      }
+    ]
+  }
+}
