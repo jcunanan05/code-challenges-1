@@ -4,7 +4,8 @@
   "description": "My take on code challenges",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/jffrsnpbbr/code-challenges#readme",
   "dependencies": {
     "jest": "^26.5.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/__tests__/**/*.test.js"]
   }
 }
